@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(237, 240, 231);
+            margin: 0px;
+        
+        }
+        header{
+            
+            background-color: rgb(191, 215, 236);
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+
+            background-color: rgb(141, 158, 142);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;  
+            /* borde raidus usa top left top roght down righ e down left - atalho ´pde ser 2 medidas so*/
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.452);
+        }
+        article{
+            background-color: rgb(132, 155, 96);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: aqua;
+        }
+        nav{
+            background-color: rgba(42, 212, 27, 0.349);
+            padding: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.37);
+
+        }
+        nav a{
+            text-decoration: none;
+            color: rgba(228, 6, 6, 0.925);
+            font-weight: bold;
+            margin-right: 30px;
+            
+
+        }
+        nav a:hover{
+            text-decoration: underline ;
+        }
+        footer{
+            background-color: rgb(198, 207, 204);
+            color: black;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            
+        }
+        #assuntos{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            margin: 10px;
+            border-radius: 50%;
+            /* border radois deixa  bem arrdondado com, % */
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+      <Nav>   
+        <a href="#">link a</a>
+        <a href="#">link b</a>
+        <a href="#">link c</a>
+        <a href="#">link d</a>        
+               
+       </Nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Esporte politica</h1>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae ipsa voluptates deserunt quia sequi laboriosam molestiae? Exercitationem perferendis nesciunt accusantium eveniet odio hic ipsum, tenetur sapiente sed, beatae id.</p>
+                <aside>
+                    <p>Escrito por Jose</p>
+                </aside>
+            </article>
+            
+
+
+
+        </section>
+
+
+    </main>
+    <footer>
+     <p>Desenvolvido pelo cursoemvideo</p>
+        
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

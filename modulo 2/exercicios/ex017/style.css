@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+/* atalho das 4 fontes no comando h1
+    4-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    3-font-size: bolder;
+    2-font-wight: 3em;
+    1-font-style: italic;
+    
+        */
+h1{
+    font: italic bolder 3em 'Work Sans', sans-serif;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
